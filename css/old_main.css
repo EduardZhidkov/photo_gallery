@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monterrat, sans-serif;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button{
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.photo{
+    /*margin-top: 2vh;*/
+    height: 45vh;
+    /*!*width: 50%; !* Ширина *!*!*/
+    /*height: 40%;*/
+    /*float: left; !* Выстраиваем элементы по горизонтали *!*/
+    /*!*margin: 0 0 0 3.5%; !* Отступ слева *!*!*/
+    /*background: #f0f0f0; !* Цвет фона *!*/
+    /*border-radius: 5px; !* Радиус скругления *!*/
+    /*!*padding: 2%; !* Поля *!*!*/
+}
+
+.comments
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    word-wrap: break-word;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+
+.assessment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
